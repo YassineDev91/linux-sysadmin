@@ -1,6 +1,4 @@
-# Atelier Pratique : Configuration réseau sous Linux
-## Durée : 1 heure
-## Niveau : Bac+3 débutant
+# Guide d'atelier pratique - Séance: Configuration réseau sous Linux
 
 ---
 
