@@ -1,4 +1,4 @@
-# Guide d'atelier pratique - Séance: Configuration réseau sous Linux
+# Guide d'atelier pratique - Séance 4: Configuration réseau sous Linux
 
 ---
 
