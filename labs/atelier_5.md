@@ -3,7 +3,7 @@
 
 ---
 
-## 🏢 **SCÉNARIO PROFESSIONNEL**
+##  **SCÉNARIO PROFESSIONNEL**
 
 Vous êtes stagiaire administrateur système chez **DataFlow**, une entreprise de traitement de données. Votre mission : créer un script de sauvegarde intelligent qui évoluera étape par étape. L'objectif est de maîtriser les concepts fondamentaux de Bash en construisant progressivement un outil professionnel de sauvegarde.
 
@@ -134,7 +134,7 @@ fi
 
 # Vérification 2 : Y a-t-il des fichiers à sauvegarder ?
 nombre_fichiers=$(find "$dossier_source" -type f | wc -l)
-echo "  📁 Nombre de fichiers trouvés : $nombre_fichiers"
+echo "  Nombre de fichiers trouvés : $nombre_fichiers"
 
 if [ $nombre_fichiers -eq 0 ]; then
     echo "  ATTENTION : Aucun fichier à sauvegarder !"
@@ -348,7 +348,7 @@ ls -lah "$dossier_destination"/backup_*.tar.gz 2>/dev/null | while read ligne; d
 done
 
 echo ""
-echo "🎉 Script terminé avec succès !"
+echo "Script terminé avec succès !"
 ```
 
 **Tester :**
@@ -418,7 +418,7 @@ verifier_sources() {
     total_fichiers=0
     
     for source in $dossiers_source; do
-        echo "  📁 Test de : $source"
+        echo "  Test de : $source"
         
         if [ -e "$source" ]; then
             echo "    Trouvé"
@@ -680,7 +680,7 @@ chmod +x backup_final.sh
 cat dataflow_backup.log
 
 # Tester manuellement les outils de manipulation de texte
-echo "🧪 Tests manuels :"
+echo "Tests manuels :"
 echo "Logs d'aujourd'hui :"
 grep "$(date +%Y-%m-%d)" dataflow_backup.log
 
